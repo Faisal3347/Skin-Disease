@@ -1,0 +1,39 @@
+.benefit-banner h1{
+    
+    font-family: math;
+    
+
+}
+.main-benefit{
+    margin-left: 6rem;
+    margin-top: 2rem;
+
+}
+.benefit-list .list1 .listimg img{
+    width: 7rem;
+}
+.listcontent p{
+ 
+    margin-top: 2rem;
+    max-width: 10rem;
+    text-align: justify;
+   
+}
+
+.benefit-list{
+    display: flex;
+    gap: 8rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .benefit-list {
+      flex-direction: column; /* Change to a column layout for smaller screens */
+      gap: 2rem; /* Adjust the gap for smaller screens */
+    }
+  
+    .benefit-list .list1 {
+      text-align: center; /* Center-align each list item */
+    }
+  }

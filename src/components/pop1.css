@@ -1,0 +1,84 @@
+.main-pop {
+    display: none; /* Hide pop-up by default */
+    position: fixed; /* Position the pop-up relative to the viewport */
+    top: 0; /* Align pop-up to the top of the viewport */
+    left: 0; /* Align pop-up to the left of the viewport */
+    width: 100%; /* Occupy the full width of the viewport */
+    height: 100%; /* Occupy the full height of the viewport */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 999; /* Ensure the pop-up appears above other content */
+}
+.left_inner{
+    background-color: white;
+    padding: 1rem;
+
+    /* margin-bottom: ; */
+}
+
+.outter{
+    background-color: #3361a5;
+    height: 82vh;
+    margin-top: -3rem;
+}
+.main-pop.show {
+    display: flex; /* Show pop-up when .show class is added */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Rest of your CSS remains unchanged */
+.pop{
+    width: 45%;
+}
+
+.two_img{
+    width: 25rem;
+    margin-bottom: 1rem;
+    /* height: 32rem; */
+}
+/* Rest of your CSS remains unchanged */
+.left-pop h1 {
+    text-align: center;
+    font-family: math;
+}
+
+.right-pop {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.right-pop .poplist {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    padding-top: 8rem;
+    color: white;
+
+    /* margin-top: 4rem; */
+
+}
+.poplist li{
+    color: white;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    .main-pop {
+        flex-direction: column;
+    }
+}
+
+/* Adjustments for even smaller screens */
+@media screen and (max-width: 576px) {
+    .left-pop {
+        order: 2; /* Reorder left section to be below */
+        text-align: center; /* Center text for better readability */
+    }
+
+    .right-pop .poplist {
+        font-size: 1.5rem; /* Decrease font size for smaller screens */
+    }
+}

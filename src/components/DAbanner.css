@@ -1,0 +1,50 @@
+.da-banner {
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+}
+
+.da-banner {
+    overflow: hidden;
+    position: relative;
+    padding: 2rem 0;
+}
+
+.da-banner .cont-1 {
+    flex-direction: row;
+}
+
+.da-banner .cont-1 {
+    display: flex;
+    gap: 1rem 6rem;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.da-banner .cont-1 .text-1 {
+    order: 1;
+}
+
+.da-banner p {
+    color: var(--bs-gray);
+   /* color: var(--text-gray2);*/
+    margin: 0 0 1rem;
+}
+
+/*.da-banner .cont-1 .img {
+    flex: 0 0 auto;
+}
+
+.da-banner .img {
+    text-align: center;
+}
+*/
+h2 {
+    padding: 0;
+    margin: 0 0 2rem;
+    font-size: 39px;
+}
+
+.imgs{
+   height: 20rem; 
+}

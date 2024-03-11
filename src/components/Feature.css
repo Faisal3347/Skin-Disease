@@ -1,0 +1,198 @@
+.featurebutton{
+  margin-top: 3rem;
+  border-radius: 30px;
+}
+.featureinfo h1{
+  font-family: math;
+  margin-top: 2rem;
+  text-decoration: solid;
+  margin-right: 10rem;
+}
+.featuredetail h4{
+  font-family: math;
+  margin-right: 10rem;
+}
+
+.list .col1 .item h5 b{
+  margin-right: 2rem;
+  display: block;
+}
+.list{
+  display: flex;
+  gap: 2rem;
+}
+.banner{
+  display: flex;
+  gap: 9rem;
+  
+}
+.icon{
+  width: "90";
+  height: "90";
+  
+}
+.left-banner{
+  display: flex;
+  gap: 2rem;
+  
+  
+}
+.block{
+  position: relative;
+  max-width: 23rem;
+  display: flex;
+  max-height: 7rem;
+  background-color: #3bc5ce;
+  border-radius: 2rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem 1rem 3rem;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+/* /* .right-block{
+  background-color: #3bc5ce;
+  border-radius: 2rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem 1rem 3rem;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+*/
+
+.left-block img {
+  max-width: 100%;
+  height: auto;
+}
+.block-shadow{
+  position: absolute;
+  inset: 3rem 2rem -3rem 2rem;
+  background-color: #3bc5ce;
+  opacity: .4;
+  filter: blur(25px);
+  border-radius: 20px;
+}
+
+/* media queries */
+/* Feature.css */
+
+/* Existing styles... */
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .featurebutton {
+    margin-top: 2rem;
+  }
+
+  .featureinfo h1,
+  .featuredetail h4 {
+    margin-right: 0; /* Adjust margin for smaller screens */
+  }
+
+  .banner {
+    flex-direction: column; /* Stack the items vertically on smaller screens */
+    gap: 2rem;
+  }
+
+  .left-banner,
+  .right-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.end-button{
+  margin-top: 2rem;
+  border-radius: 15px;
+  font-family: math;
+  margin-left: 3rem;
+}
+
+/* Feature.css */
+
+/* Existing styles... */
+
+@media (max-width: 768px) {
+  .featureinfo h1 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-top: 1rem;
+  }
+
+  .featuredetail h4 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    margin-right: 0;
+  }
+
+  .list .col1 .item h5 b {
+    margin-right: 1rem; /* Adjust margin for smaller screens */
+  }
+}
+
+/* ml info */
+
+.context .left-context img{
+margin-left:3rem;
+height: 20rem;
+width: 20rem;
+}
+.context{
+display: flex;
+margin-top: 3rem;
+gap: 3rem;
+}
+.context .right-context{
+font-family: math;
+margin-top: -3rem;
+
+
+}
+.context .right-context h1 b{
+box-sizing: border-box;
+margin: 0;
+}
+.context .right-context p{
+font-size: 1.2rem;
+margin: 0 0 0rem;
+color: #596077;
+
+
+
+}
+.context .right-context p .mt b{
+margin-top: 2rem;
+
+
+}
+.featurelist{
+margin-top: 0rem;
+padding: 0;
+color: #848998;
+}
+.featurelist li{
+box-sizing: border-box;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+.context {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.context .left-context img {
+  margin-left: 0; /* Adjust margin for smaller screens */
+  width: 100%; /* Make the image take full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.context .right-context {
+  text-align: center; /* Center-align text in smaller screens */
+}
+}

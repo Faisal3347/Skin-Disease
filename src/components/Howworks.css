@@ -1,0 +1,57 @@
+.how-to-block {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+
+.cont {
+    margin: 0 auto;
+    max-width: 109rem;
+    padding: 0 3rem;
+}
+
+h1 {
+    padding: 0;
+    margin: 3rem 3rem 2rem;
+    /* /font-size: 3rem;/ */
+}
+
+.image-1{
+    width: 100%;
+    height: 16rem;
+}
+.how-to-block .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 2rem;
+}
+
+.how-to-block .list {
+    margin-bottom: 4rem;
+}
+
+.how-to-block .item {
+    margin-left: 3rem;
+    color: var(--text-gray2);
+}
+
+.how-to-block .item .icon {
+    text-align: left;
+}
+
+.how-to-block .item .icon {
+    display: block;
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.how-to-block .item p {
+    margin: 0.5rem 0 0;
+}
+
+.how-to-block p.small {
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+    margin-left: 3rem;
+}

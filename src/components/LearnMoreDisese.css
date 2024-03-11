@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    overflow-x:hidden;
+}
+
+.upper_body {
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #e3e4ec;
+    position: relative;
+    top: 4rem;
+}
+
+.text {
+    position: relative;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+    width: 50%;
+    position: relative;
+    left: 2rem;
+}
+
+.img img {
+    height: 15rem;
+    width: 40%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.side {
+    border-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25%;
+    position: sticky;
+    top: 10px;
+    margin: 1rem;
+    margin-top: 5rem;
+}
+
+.upper_content {
+    font-family: NeuzeitBold;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 13px 20px;
+    background-color: #d2d5e9;
+}
+
+.elem {
+    font-family: NeuzeitBold;
+    font-size: 15px;
+    line-height: 26px;
+    border-bottom: 1px solid #98828291;
+    padding: 15px 30px;
+    background-color: #bdc0d6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.other {
+    position: absolute;
+    left: 24rem;
+    font-size: 1.2rem;
+    margin-top: 5.5rem;
+}
+
+.first {
+    width: 80%;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-size: inherit;
+}
+
+.overview_list {
+    line-height: 2rem;
+}
+
+.image_set {
+    width: 100%;
+    margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px; /* Adjust the gap between images as needed */
+        position: relative;
+        left: 2rem;
+        margin: 0 1rem;
+      }
+
+
+
+.set1 {
+    border: 2px solid gray;
+    margin-bottom: 0.8rem;
+}
+
+
+.symptoms_list {
+    line-height: 2.3rem;
+}
+
+
+.cause_data{
+    margin-top: 2rem;
+}
+.container{
+    max-width: 100%;
+
+}
+
+.bottom{
+    display: flex;
+}
+/* Media query for screens lessthan 720 pixels */
+@media (max-width: 720px) {
+    .bottom{
+        display: block;
+    }
+    .sidebar {
+        width: 100%;
+    }
+
+    .side {
+        width: 90%;
+        margin: auto;
+        margin-top: 5rem;
+        text-align: justify;
+    }
+
+    .other {
+        position: static;
+        margin: 1rem auto; /* Center the content horizontally */
+        text-align: center; /* Center the text within the .other container */
+        left: 0;
+    }
+
+    .first {
+        margin: auto;
+    }
+}
